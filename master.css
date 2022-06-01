@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    height: 100vh;
+
+}
+
+.bod {
+    height: 100%;
+    width: 100%;
+    background-color: #d5e1ef;
+    position: relative;
+
+
+}
+
+.main {
+    max-width: 300px;
+    height: 450px;
+    background-color: white;
+    border-radius: 5%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+
+
+
+}
+
+.main img {
+    max-width: calc(300px - 20px);
+    height: calc(300px - 20px);
+    margin: 10px;
+    border-radius: 5%;
+}
+
+.main p {
+    width: 80%;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 10px;
+    color: #888b9a;
+   
+}
+
+
+
+.main .first {
+    max-width: 66%;
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto;
+    color: black;
+    font-family: 'Outfit';
+    font-weight: 700;
+}
+
+.main .second {
+    position: relative;
+    font-family: "Outfit";
+    font-weight: 400;
+}
+
+.main .second span {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.main p::first-letter {
+    margin-left: 5px;
+}
+
+@media (max-width : 590px) {}
